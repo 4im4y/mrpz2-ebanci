@@ -19,7 +19,7 @@ class CreateMembersTable extends Migration
 
             //Personal Information
             $table->string('ic_number', 12)->unique();
-            $table->string('fullname');
+            $table->string('full_name');
             $table->date('date_of_birth');
             $table->enum('gender', [
                 'male',

@@ -15,7 +15,7 @@ class Member extends Model
     protected $fillable = [
         'membership_number',
         'ic_number',
-        'fullname',
+        'full_name',
         'date_of_birth',
         'gender',
         'marital_status',
